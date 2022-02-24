@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+
+input{
+    text-align: right;
+}
+
+span{
+    height: 3vh;
+    width: 20vw;
+    background-color: #111;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.todo{
+   
+    width: 40vw;
+    height: 25vh;
+    background-color: #333;
+    padding: 2em 1em 2em 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50px;
+
+}
+
+.input{
+    width: fit-content;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+.result{
+    height: fit-content;
+}
+
+.botones{
+    margin: 1em;
+    display: flex;
+    text-align: center;
+    justify-content:  space-around;
+}
+
+.botones input{
+    background-color: rgb(180, 137, 16);
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    text-decoration: none;
+    transform: scale(150%);
+    margin-bottom: 1em;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+}
